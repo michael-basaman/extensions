@@ -7,6 +7,10 @@
 	"service_worker": "background.js",
     "type": "module"
   },
+  "action": {
+    "default_popup": "forceback.html",
+    "default_icon": "images/forceback_128.png"
+  },
   "icons": {
     "16": "images/forceback_16.png",
     "48": "images/forceback_48.png",
