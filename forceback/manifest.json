@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Force Back",
+  "description": "Force Back Extension",
+  "version": "1.0",
+  "background": {
+	"service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "images/forceback_16.png",
+    "48": "images/forceback_48.png",
+    "128": "images/forceback_128.png"
+  },
+  "permissions": [
+	"webNavigation"
+  ]
+}
