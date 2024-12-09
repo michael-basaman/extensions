@@ -17,6 +17,7 @@
     "128": "images/forceback_128.png"
   },
   "permissions": [
-	"webNavigation"
+	"webNavigation",
+	"tabs"
   ]
 }
