@@ -4,12 +4,6 @@ let redirect_map = new Map();
 chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
 	console.log("onUpdated(" + tabId + ", " + tab.url);
 	
-	var a = true;
-	if(a) {
-		return true;	
-	}	
-		
-	
 	if(typeof tabId != "undefined"
 			&& tab != "undefined"
 			&& tab.url != "undefined") {
@@ -31,11 +25,6 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
 });
 
 chrome.tabs.onRemoved.addListener(async (tabId, removeInfo) => {
-	var a = true;
-	if(a) {
-		return true;	
-	}	
-		
 	if(typeof tabId != "undefined") {
 		url_map.delete(tabId);
 		redirect_map.delete(tabId);	
