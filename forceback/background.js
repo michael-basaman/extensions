@@ -1,13 +1,3 @@
-
-async function forcebackOnPopState(event) {
-	console.log("forcebackOnPopState()");
-	console.log(JSON.stringify(e));
-	
-	if(redirect_count > 0) {
-		history.back(-1 * redirect_count);
-	}
-}
-
 let url_map = new Map();
 let redirect_map = new Map();
 
