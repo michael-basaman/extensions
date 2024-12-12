@@ -1,20 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "ForceBack",
-  "description": "ForcBack prevents websites from keeping you on their page when you press the back button.",
-  "version": "1.0",
+  "name": "ForceBack: ",
+  "description": "ForceBack prevents websites from keeping you on their page when you press the back button.",
+  "version": "1.0.0",
   "background": {
 	"service_worker": "background.js",
     "type": "module"
   },
   "action": {
     "default_popup": "forceback.html",
-    "default_icon": "images/forceback_128.png"
+    "default_icon": "icons/forceback_128.png"
   },
   "icons": {
-    "16": "images/forceback_16.png",
-    "48": "images/forceback_48.png",
-    "128": "images/forceback_128.png"
+    "16": "icons/forceback_16.png",
+    "48": "icons/forceback_48.png",
+    "128": "icons/forceback_128.png"
   },
   "permissions": [
 	"tabs",
