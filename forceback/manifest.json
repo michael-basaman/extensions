@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Force Back",
-  "description": "Force Back Extension",
+  "name": "ForceBack",
+  "description": "ForcBack prevents websites from keeping you on their page when you press the back button.",
   "version": "1.0",
   "background": {
 	"service_worker": "background.js",
@@ -17,7 +17,6 @@
     "128": "images/forceback_128.png"
   },
   "permissions": [
-	"webNavigation",
 	"tabs",
 	"history"
   ]
