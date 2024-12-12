@@ -39,7 +39,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 										endTime: historyItem.lastVisitTime + 1,
 										startTime: historyItem.lastVisitTime - 1
 									}).then(() => {
-										console.log("ForceBack chrome.history.deleteRange(" + millis + ", " + )
+										console.log("ForceBack chrome.history.deleteRange(" + millis + ", " + historyItem.lastVisitTime + ") - " + tab.url);
 									});		
 								}
 							}			
