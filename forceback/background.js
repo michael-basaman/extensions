@@ -18,7 +18,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 						endTime: millis + 10,
 						startTime: millis - 100
 					}, () => {
-						console.log("history.deleteRange(" + millis + ")");
 						return true;
 					});	
 				}, 500);
